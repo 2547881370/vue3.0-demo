@@ -14,7 +14,7 @@
     <Modal :isOpen="isOpen" @closeModal="closeModal">
       <span style="color: #123412">我是自定义内容</span>
     </Modal>
-    <div v-if="errMsg">{{errMsg}}</div>
+    <div v-if="errMsg">{{ errMsg }}</div>
     <Suspense v-else>
       <template #default>
         <!-- <async-show /> -->
